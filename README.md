@@ -62,31 +62,26 @@
 | Vercel | Deployment & hosting |
 
 ---
-
 ## 📁 Project Structure
+```
 src/
 ├── components/
-│   ├── HourlyChart.jsx      # Reusable Chart.js chart with zoom/pan
-│   ├── LocationBar.jsx      # GPS location display with reverse geocoding
-│   ├── Navbar.jsx           # Page navigation tabs
-│   └── WeatherCard.jsx      # Individual metric display card
-│
+│   ├── HourlyChart.jsx
+│   ├── LocationBar.jsx
+│   ├── Navbar.jsx
+│   └── WeatherCard.jsx
 ├── hooks/
-│   └── useWeather.js        # Custom hook for weather + AQ data fetching
-│
+│   └── useWeather.js
 ├── pages/
-│   ├── CurrentWeather.jsx   # Page 1 — Current conditions & hourly charts
-│   └── HistoricalWeather.jsx # Page 2 — Historical date range analysis
-│
+│   ├── CurrentWeather.jsx
+│   └── HistoricalWeather.jsx
 ├── services/
-│   └── weatherApi.js        # All Open-Meteo API calls
-│
+│   └── weatherApi.js
 ├── utils/
-│   └── location.js          # Browser GPS geolocation utility
-│
-├── App.jsx                  # Root component & page routing
-└── main.jsx                 # React entry point
----
+│   └── location.js
+├── App.jsx
+└── main.jsx
+```
 
 ## 🚀 Getting Started
 
